@@ -3,7 +3,7 @@
 https://roadmap.sh/projects/ssh-remote-server-setup
 
 
-!) Create 2 SSH keys on your local computer (or the computer you will be using to ssh to the remote computer).
+1) Create 2 SSH keys on your local computer (or the computer you will be using to ssh to the remote computer).
     a) ssh-keygen -t ed25519 -C "primary-key" -f ~/.ssh/server_key_1
     b) ssh-keygen -t ed25519 -C "secondary-key" -f ~/.ssh/server_key_2
 
@@ -14,7 +14,7 @@ https://roadmap.sh/projects/ssh-remote-server-setup
 
 4) SSH to your to new virtual machine
 
-5) Confirm or create the file .ssh/authorized_keys
+5) Confirm or create the file ~/.ssh/authorized_keys
 
 6) Copy your new server SSH public keys to the authorized_keys file
 
